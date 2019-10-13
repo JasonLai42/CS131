@@ -1,0 +1,582 @@
+
+JAVA 11
+
+UNSYNCHRONIZED TEST
+
+Thread Count: 2
+Iteration Count: 10
+maxval: 6
+Threads average 720147 ns/transition
+maxval: 64
+Threads average 925534 ns/transition
+maxval: 127
+Threads average 628603 ns/transition
+Iteration Count: 1000
+maxval: 6
+Threads average 8176.50 ns/transition
+Threads average 8033.70 ns/transition
+Threads average 9400.75 ns/transition
+maxval: 64
+Threads average 8383.31 ns/transition
+maxval: 127
+Threads average 9426.55 ns/transition
+Threads average 18017.9 ns/transition
+Iteration Count: 10000
+maxval: 6
+Threads average 33559.5 ns/transition
+Threads average 21574.3 ns/transition
+Threads average 3111.12 ns/transition
+Threads average 7458.70 ns/transition
+Threads average 1216.87 ns/transition
+maxval: 64
+Threads average 1441.27 ns/transition
+Threads average 2049.06 ns/transition
+Threads average 1618.20 ns/transition
+Threads average 2983.97 ns/transition
+Threads average 1693.06 ns/transition
+maxval: 127
+Threads average 1891.21 ns/transition
+Threads average 19235.3 ns/transition
+Iteration Count: 100000
+maxval: 6
+Threads average 2855.61 ns/transition
+maxval: 64
+Threads average 3195.28 ns/transition
+Threads average 571.835 ns/transition
+Threads average 472.942 ns/transition
+Threads average 535.182 ns/transition
+Threads average 556.983 ns/transition
+Threads average 388.200 ns/transition
+Threads average 380.334 ns/transition
+Threads average 455.269 ns/transition
+Threads average 515.361 ns/transition
+Threads average 3229.81 ns/transition
+maxval: 127
+Threads average 5754.80 ns/transition
+Threads average 339.847 ns/transition
+Threads average 421.718 ns/transition
+
+Thread Count: 4
+Iteration Count: 10
+maxval: 6
+Threads average 947635 ns/transition
+maxval: 64
+Threads average 1.28389e+06 ns/transition
+maxval: 127
+Threads average 2.30213e+06 ns/transition
+Iteration Count: 1000
+maxval: 6
+Threads average 22035.2 ns/transition
+Threads average 19157.9 ns/transition
+maxval: 64
+Threads average 21952.8 ns/transition
+Threads average 20078.3 ns/transition
+maxval: 127
+Threads average 622988 ns/transition
+Iteration Count: 10000
+maxval: 6
+Threads average 50743.1 ns/transition
+maxval: 64
+Threads average 77954.6 ns/transition
+maxval: 127
+Threads average 5821.78 ns/transition
+Threads average 7268.15 ns/transition
+Threads average 58615.5 ns/transition
+Threads average 5705.65 ns/transition
+Threads average 5112.03 ns/transition
+Threads average 6312.91 ns/transition
+Threads average 4241.60 ns/transition
+Threads average 7372.23 ns/transition
+Iteration Count: 100000
+maxval: 6
+Threads average 2137.71 ns/transition
+Threads average 1223.43 ns/transition
+Threads average 1684.17 ns/transition
+Threads average 964.288 ns/transition
+maxval: 64
+Threads average 946.627 ns/transition
+Threads average 1213.93 ns/transition
+Threads average 1872.96 ns/transition
+Threads average 894.165 ns/transition
+Threads average 2032.24 ns/transition
+Threads average 1729.75 ns/transition
+maxval: 127
+Threads average 2188.60 ns/transition
+
+Thread Count: 8
+Iteration Count: 10
+maxval: 6
+Threads average 5.03083e+06 ns/transition
+maxval: 64
+Threads average 4.88242e+06 ns/transition
+maxval: 127
+Threads average 6.04574e+06 ns/transition
+Iteration Count: 1000
+maxval: 6
+Threads average 77426.9 ns/transition
+maxval: 64
+Threads average 52494.7 ns/transition
+maxval: 127
+Threads average 102842 ns/transition
+Iteration Count: 10000
+maxval: 6
+Threads average 14226.7 ns/transition
+maxval: 64
+Threads average 14617.7 ns/transition
+maxval: 127
+Threads average 14708.4 ns/transition
+Iteration Count: 100000
+maxval: 6
+Threads average 3514.92 ns/transition
+maxval: 64
+Threads average 5038.35 ns/transition
+Threads average 8070.33 ns/transition
+Threads average 1766.76 ns/transition
+Threads average 6781.92 ns/transition
+Threads average 3465.67 ns/transition
+Threads average 2180.27 ns/transition
+Threads average 2726.76 ns/transition
+Threads average 1780.32 ns/transition
+Threads average 2299.98 ns/transition
+Threads average 3600.21 ns/transition
+Threads average 5078.66 ns/transition
+Threads average 2323.03 ns/transition
+Threads average 1708.46 ns/transition
+Threads average 4378.40 ns/transition
+Threads average 4987.29 ns/transition
+Threads average 2333.58 ns/transition
+Threads average 2816.86 ns/transition
+Threads average 2887.88 ns/transition
+Threads average 6314.22 ns/transition
+Threads average 2762.09 ns/transition
+Threads average 1738.02 ns/transition
+Threads average 1517.89 ns/transition
+Threads average 2045.10 ns/transition
+Threads average 3135.89 ns/transition
+Threads average 2237.46 ns/transition
+Threads average 2529.95 ns/transition
+Threads average 4120.70 ns/transition
+Threads average 3519.98 ns/transition
+Threads average 2076.96 ns/transition
+Threads average 3543.72 ns/transition
+Threads average 3525.50 ns/transition
+Threads average 2432.25 ns/transition
+Threads average 2108.14 ns/transition
+Threads average 2044.18 ns/transition
+Threads average 2320.26 ns/transition
+Threads average 2681.08 ns/transition
+Threads average 2691.40 ns/transition
+Threads average 4446.47 ns/transition
+Threads average 4610.19 ns/transition
+Threads average 2532.49 ns/transition
+Threads average 2721.40 ns/transition
+Threads average 2918.19 ns/transition
+Threads average 2225.81 ns/transition
+Threads average 2582.15 ns/transition
+Threads average 4797.41 ns/transition
+Threads average 2779.61 ns/transition
+Threads average 2470.51 ns/transition
+Threads average 4127.84 ns/transition
+Threads average 3280.62 ns/transition
+Threads average 2695.69 ns/transition
+Threads average 4296.35 ns/transition
+Threads average 5409.82 ns/transition
+Threads average 2252.80 ns/transition
+Threads average 5213.83 ns/transition
+Threads average 2471.40 ns/transition
+Threads average 3041.74 ns/transition
+Threads average 2799.94 ns/transition
+Threads average 2696.53 ns/transition
+Threads average 4626.24 ns/transition
+Threads average 7700.89 ns/transition
+Threads average 2507.40 ns/transition
+Threads average 3077.16 ns/transition
+Threads average 5466.51 ns/transition
+Threads average 2375.73 ns/transition
+Threads average 2280.14 ns/transition
+Threads average 2848.23 ns/transition
+Threads average 2066.68 ns/transition
+Threads average 2986.32 ns/transition
+Threads average 3714.22 ns/transition
+Threads average 2371.48 ns/transition
+Threads average 3179.54 ns/transition
+Threads average 1501.50 ns/transition
+Threads average 1759.88 ns/transition
+Threads average 2114.69 ns/transition
+Threads average 2017.50 ns/transition
+Threads average 3643.77 ns/transition
+Threads average 1432.39 ns/transition
+Threads average 3770.46 ns/transition
+Threads average 6720.62 ns/transition
+Threads average 1823.78 ns/transition
+Threads average 2711.57 ns/transition
+Threads average 4166.61 ns/transition
+Threads average 3212.74 ns/transition
+Threads average 1990.10 ns/transition
+Threads average 2879.75 ns/transition
+Threads average 2360.68 ns/transition
+Threads average 2740.70 ns/transition
+Threads average 2779.64 ns/transition
+Threads average 4108.32 ns/transition
+Threads average 2553.81 ns/transition
+Threads average 4294.06 ns/transition
+Threads average 3132.66 ns/transition
+Threads average 3209.75 ns/transition
+Threads average 2736.93 ns/transition
+Threads average 4282.98 ns/transition
+Threads average 1782.67 ns/transition
+Threads average 3899.71 ns/transition
+Threads average 2904.94 ns/transition
+Threads average 2944.61 ns/transition
+Threads average 2230.53 ns/transition
+Threads average 5149.15 ns/transition
+Threads average 3804.69 ns/transition
+Threads average 2211.00 ns/transition
+Threads average 2130.74 ns/transition
+Threads average 2521.79 ns/transition
+Threads average 3730.03 ns/transition
+Threads average 3249.80 ns/transition
+Threads average 2733.97 ns/transition
+Threads average 1623.36 ns/transition
+Threads average 2760.39 ns/transition
+Threads average 3961.18 ns/transition
+Threads average 1943.26 ns/transition
+Threads average 2975.13 ns/transition
+Threads average 4087.27 ns/transition
+Threads average 25015.6 ns/transition
+Threads average 22536.8 ns/transition
+maxval: 127
+Threads average 24856.2 ns/transition
+Threads average 4014.38 ns/transition
+Threads average 2989.36 ns/transition
+Threads average 1648.97 ns/transition
+Threads average 2208.33 ns/transition
+Threads average 3093.11 ns/transition
+Threads average 1848.48 ns/transition
+Threads average 15177.2 ns/transition
+Threads average 3092.73 ns/transition
+Threads average 5579.11 ns/transition
+Threads average 1843.20 ns/transition
+Threads average 2009.88 ns/transition
+Threads average 2161.78 ns/transition
+Threads average 1807.54 ns/transition
+Threads average 22054.9 ns/transition
+Threads average 17252.8 ns/transition
+Threads average 5541.39 ns/transition
+Threads average 2099.05 ns/transition
+Threads average 2654.09 ns/transition
+Threads average 18383.2 ns/transition
+Threads average 3263.53 ns/transition
+Threads average 2761.70 ns/transition
+Threads average 3084.20 ns/transition
+Threads average 2118.22 ns/transition
+Threads average 3654.42 ns/transition
+Threads average 2287.93 ns/transition
+Threads average 36075.4 ns/transition
+Threads average 31738.9 ns/transition
+Threads average 12116.4 ns/transition
+Threads average 2563.26 ns/transition
+Threads average 1778.98 ns/transition
+Threads average 3629.69 ns/transition
+Threads average 21495.5 ns/transition
+Threads average 36380.1 ns/transition
+Threads average 2414.39 ns/transition
+Threads average 3420.81 ns/transition
+Threads average 1575.70 ns/transition
+Threads average 2029.92 ns/transition
+Threads average 2019.19 ns/transition
+Threads average 3870.06 ns/transition
+Threads average 3434.70 ns/transition
+Threads average 2831.58 ns/transition
+Threads average 16263.9 ns/transition
+Threads average 39564.2 ns/transition
+Threads average 31338.2 ns/transition
+Threads average 2091.52 ns/transition
+Threads average 5357.73 ns/transition
+Threads average 2231.43 ns/transition
+Threads average 18708.9 ns/transition
+Threads average 2379.59 ns/transition
+Threads average 2562.97 ns/transition
+Threads average 2018.11 ns/transition
+Threads average 2860.40 ns/transition
+Threads average 4473.91 ns/transition
+Threads average 3221.22 ns/transition
+Threads average 1811.44 ns/transition
+Threads average 39253.2 ns/transition
+Threads average 1450.35 ns/transition
+Threads average 1661.95 ns/transition
+Threads average 2861.91 ns/transition
+Threads average 4976.14 ns/transition
+Threads average 3755.21 ns/transition
+Threads average 3624.32 ns/transition
+Threads average 2953.25 ns/transition
+Threads average 43917.7 ns/transition
+Threads average 13800.6 ns/transition
+
+JAVA 9
+
+UNSYNCHRONIZED TEST
+
+Thread Count: 2
+Iteration Count: 10
+maxval: 6
+Threads average 260190 ns/transition
+maxval: 64
+Threads average 228049 ns/transition
+maxval: 127
+Threads average 246169 ns/transition
+Iteration Count: 1000
+maxval: 6
+Threads average 5416.60 ns/transition
+maxval: 64
+Threads average 5310.00 ns/transition
+Threads average 6744.25 ns/transition
+Threads average 6937.26 ns/transition
+Threads average 6437.04 ns/transition
+Threads average 6592.04 ns/transition
+Threads average 6599.64 ns/transition
+Threads average 6619.64 ns/transition
+Threads average 7344.47 ns/transition
+maxval: 127
+Threads average 9147.54 ns/transition
+Iteration Count: 10000
+maxval: 6
+Threads average 2254.86 ns/transition
+Threads average 2170.70 ns/transition
+Threads average 2508.33 ns/transition
+Threads average 1608.12 ns/transition
+Threads average 1309.05 ns/transition
+Threads average 1163.20 ns/transition
+maxval: 64
+Threads average 1779.47 ns/transition
+Threads average 1701.58 ns/transition
+Threads average 1420.95 ns/transition
+Threads average 1589.96 ns/transition
+Threads average 2060.32 ns/transition
+maxval: 127
+Threads average 2095.40 ns/transition
+Threads average 1822.55 ns/transition
+Threads average 1622.12 ns/transition
+Threads average 1974.39 ns/transition
+Threads average 1525.34 ns/transition
+Iteration Count: 100000
+maxval: 6
+Threads average 289.951 ns/transition
+maxval: 64
+Threads average 564.329 ns/transition
+Threads average 365.036 ns/transition
+Threads average 589.490 ns/transition
+Threads average 618.593 ns/transition
+Threads average 489.448 ns/transition
+Threads average 376.778 ns/transition
+Threads average 433.954 ns/transition
+Threads average 497.870 ns/transition
+Threads average 351.885 ns/transition
+Threads average 438.824 ns/transition
+Threads average 463.847 ns/transition
+Threads average 564.939 ns/transition
+Threads average 471.593 ns/transition
+Threads average 418.422 ns/transition
+Threads average 355.841 ns/transition
+Threads average 310.922 ns/transition
+Threads average 263.566 ns/transition
+maxval: 127
+Threads average 382.864 ns/transition
+Threads average 514.585 ns/transition
+Threads average 479.018 ns/transition
+Threads average 386.256 ns/transition
+Threads average 435.580 ns/transition
+Threads average 415.883 ns/transition
+Threads average 461.207 ns/transition
+Threads average 361.539 ns/transition
+Threads average 407.687 ns/transition
+Threads average 412.095 ns/transition
+Threads average 379.580 ns/transition
+Threads average 382.956 ns/transition
+Threads average 390.266 ns/transition
+Threads average 354.455 ns/transition
+Threads average 406.023 ns/transition
+Threads average 412.477 ns/transition
+Threads average 310.534 ns/transition
+Threads average 425.616 ns/transition
+Threads average 431.080 ns/transition
+Threads average 318.892 ns/transition
+Threads average 605.432 ns/transition
+Threads average 367.402 ns/transition
+Threads average 348.357 ns/transition
+Threads average 467.801 ns/transition
+Threads average 408.649 ns/transition
+Threads average 369.068 ns/transition
+Threads average 358.251 ns/transition
+Threads average 357.651 ns/transition
+Threads average 407.641 ns/transition
+Threads average 260.064 ns/transition
+Threads average 369.006 ns/transition
+Threads average 314.424 ns/transition
+Threads average 393.683 ns/transition
+Threads average 381.454 ns/transition
+Threads average 475.616 ns/transition
+Threads average 296.213 ns/transition
+Threads average 415.241 ns/transition
+Threads average 458.335 ns/transition
+Threads average 385.624 ns/transition
+Threads average 300.947 ns/transition
+Threads average 366.912 ns/transition
+Threads average 689.560 ns/transition
+Threads average 434.690 ns/transition
+Threads average 517.495 ns/transition
+Threads average 394.817 ns/transition
+Threads average 268.462 ns/transition
+
+Thread Count: 4
+Iteration Count: 10
+maxval: 6
+Threads average 837991 ns/transition
+maxval: 64
+Threads average 824870 ns/transition
+maxval: 127
+Threads average 736147 ns/transition
+Iteration Count: 1000
+maxval: 6
+Threads average 15780.6 ns/transition
+maxval: 64
+Threads average 21550.8 ns/transition
+maxval: 127
+Threads average 18197.5 ns/transition
+Threads average 12607.3 ns/transition
+Threads average 12036.8 ns/transition
+Threads average 12083.2 ns/transition
+Threads average 16586.2 ns/transition
+Threads average 18197.9 ns/transition
+Iteration Count: 10000
+maxval: 6
+Threads average 6237.55 ns/transition
+Threads average 6503.76 ns/transition
+Threads average 11766.6 ns/transition
+maxval: 64
+Threads average 3732.70 ns/transition
+Threads average 6335.87 ns/transition
+Threads average 5668.73 ns/transition
+Threads average 3763.78 ns/transition
+maxval: 127
+Threads average 2557.29 ns/transition
+Threads average 2791.02 ns/transition
+Threads average 3831.22 ns/transition
+Threads average 13587.7 ns/transition
+Threads average 6093.11 ns/transition
+Threads average 3437.13 ns/transition
+Threads average 5439.08 ns/transition
+Threads average 3031.11 ns/transition
+Iteration Count: 100000
+maxval: 6
+Threads average 1294.14 ns/transition
+Threads average 1016.41 ns/transition
+Threads average 806.354 ns/transition
+Threads average 1256.59 ns/transition
+Threads average 1912.55 ns/transition
+Threads average 1139.61 ns/transition
+Threads average 1493.98 ns/transition
+Threads average 986.641 ns/transition
+Threads average 1580.56 ns/transition
+Threads average 991.805 ns/transition
+Threads average 1222.59 ns/transition
+Threads average 1566.13 ns/transition
+Threads average 1298.97 ns/transition
+Threads average 1089.67 ns/transition
+Threads average 1194.44 ns/transition
+Threads average 1498.69 ns/transition
+Threads average 1109.33 ns/transition
+Threads average 2180.96 ns/transition
+Threads average 751.124 ns/transition
+Threads average 1181.25 ns/transition
+Threads average 1045.81 ns/transition
+Threads average 1631.88 ns/transition
+Threads average 787.441 ns/transition
+maxval: 64
+Threads average 994.037 ns/transition
+Threads average 1646.08 ns/transition
+Threads average 1361.35 ns/transition
+Threads average 1054.89 ns/transition
+Threads average 1633.74 ns/transition
+Threads average 1204.92 ns/transition
+Threads average 1510.50 ns/transition
+Threads average 982.256 ns/transition
+Threads average 1195.86 ns/transition
+Threads average 1961.94 ns/transition
+Threads average 755.760 ns/transition
+Threads average 618.463 ns/transition
+maxval: 127
+Threads average 743.304 ns/transition
+Threads average 624.527 ns/transition
+
+Thread Count: 8
+Iteration Count: 10
+maxval: 6
+Threads average 1.85263e+06 ns/transition
+maxval: 64
+Threads average 4.37328e+06 ns/transition
+maxval: 127
+Threads average 3.76998e+06 ns/transition
+Iteration Count: 1000
+maxval: 6
+Threads average 49049.0 ns/transition
+Threads average 30145.9 ns/transition
+Threads average 29235.5 ns/transition
+Threads average 40294.3 ns/transition
+maxval: 64
+Threads average 109990 ns/transition
+maxval: 127
+Threads average 25266.5 ns/transition
+Threads average 42770.4 ns/transition
+Threads average 153730 ns/transition
+Iteration Count: 10000
+maxval: 6
+Threads average 9577.88 ns/transition
+Threads average 12266.6 ns/transition
+Threads average 58597.8 ns/transition
+Threads average 134021 ns/transition
+maxval: 64
+Threads average 10407.5 ns/transition
+Threads average 15155.5 ns/transition
+Threads average 10386.5 ns/transition
+Threads average 5566.29 ns/transition
+Threads average 10360.4 ns/transition
+Threads average 19322.2 ns/transition
+Threads average 15964.2 ns/transition
+Threads average 10758.1 ns/transition
+Threads average 12028.0 ns/transition
+Threads average 10940.6 ns/transition
+Threads average 8219.90 ns/transition
+Threads average 12155.9 ns/transition
+Threads average 11747.6 ns/transition
+Threads average 10634.1 ns/transition
+Threads average 15521.5 ns/transition
+Threads average 157558 ns/transition
+maxval: 127
+Threads average 8554.64 ns/transition
+Threads average 8601.76 ns/transition
+Threads average 7163.31 ns/transition
+Threads average 15856.6 ns/transition
+Threads average 11138.5 ns/transition
+Threads average 6723.37 ns/transition
+Threads average 13302.1 ns/transition
+Threads average 133614 ns/transition
+Iteration Count: 100000
+maxval: 6
+Threads average 3777.91 ns/transition
+Threads average 2446.00 ns/transition
+Threads average 3532.96 ns/transition
+Threads average 6210.97 ns/transition
+Threads average 6170.67 ns/transition
+Threads average 46214.5 ns/transition
+maxval: 64
+Threads average 1837.24 ns/transition
+Threads average 12077.7 ns/transition
+maxval: 127
+Threads average 4379.36 ns/transition
+Threads average 2013.47 ns/transition
+Threads average 2106.79 ns/transition
+Threads average 3488.72 ns/transition
+Threads average 1931.96 ns/transition
+Threads average 6291.19 ns/transition
+Threads average 30937.6 ns/transition

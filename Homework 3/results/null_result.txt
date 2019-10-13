@@ -1,0 +1,188 @@
+
+JAVA 11
+
+NULL TEST
+
+Thread Count: 2
+Iteration Count: 10
+maxval: 6
+Threads average 755888 ns/transition
+maxval: 64
+Threads average 381034 ns/transition
+maxval: 127
+Threads average 394815 ns/transition
+Iteration Count: 1000
+maxval: 6
+Threads average 7030.46 ns/transition
+maxval: 64
+Threads average 7363.27 ns/transition
+maxval: 127
+Threads average 8702.72 ns/transition
+Iteration Count: 10000
+maxval: 6
+Threads average 2136.86 ns/transition
+maxval: 64
+Threads average 1778.23 ns/transition
+maxval: 127
+Threads average 1027.28 ns/transition
+Iteration Count: 100000
+maxval: 6
+Threads average 480.398 ns/transition
+maxval: 64
+Threads average 466.261 ns/transition
+maxval: 127
+Threads average 450.437 ns/transition
+
+Thread Count: 4
+Iteration Count: 10
+maxval: 6
+Threads average 1.42953e+06 ns/transition
+maxval: 64
+Threads average 1.29633e+06 ns/transition
+maxval: 127
+Threads average 1.74990e+06 ns/transition
+Iteration Count: 1000
+maxval: 6
+Threads average 57629.7 ns/transition
+maxval: 64
+Threads average 19531.1 ns/transition
+maxval: 127
+Threads average 22355.2 ns/transition
+Iteration Count: 10000
+maxval: 6
+Threads average 2900.83 ns/transition
+maxval: 64
+Threads average 5822.02 ns/transition
+maxval: 127
+Threads average 50297.3 ns/transition
+Iteration Count: 100000
+maxval: 6
+Threads average 7989.64 ns/transition
+maxval: 64
+Threads average 901.533 ns/transition
+maxval: 127
+Threads average 1008.50 ns/transition
+
+Thread Count: 8
+Iteration Count: 10
+maxval: 6
+Threads average 1.05330e+07 ns/transition
+maxval: 64
+Threads average 6.18055e+06 ns/transition
+maxval: 127
+Threads average 4.66385e+06 ns/transition
+Iteration Count: 1000
+maxval: 6
+Threads average 63243.1 ns/transition
+maxval: 64
+Threads average 44417.6 ns/transition
+maxval: 127
+Threads average 1.86151e+06 ns/transition
+Iteration Count: 10000
+maxval: 6
+Threads average 174163 ns/transition
+maxval: 64
+Threads average 160087 ns/transition
+maxval: 127
+Threads average 10698.7 ns/transition
+Iteration Count: 100000
+maxval: 6
+Threads average 4973.09 ns/transition
+maxval: 64
+Threads average 3149.99 ns/transition
+maxval: 127
+Threads average 1447.53 ns/transition
+
+JAVA 9
+
+NULL TEST
+
+Thread Count: 2
+Iteration Count: 10
+maxval: 6
+Threads average 289251 ns/transition
+maxval: 64
+Threads average 1.03409e+07 ns/transition
+maxval: 127
+Threads average 8.94989e+06 ns/transition
+Iteration Count: 1000
+maxval: 6
+Threads average 107492 ns/transition
+maxval: 64
+Threads average 6084.23 ns/transition
+maxval: 127
+Threads average 5509.60 ns/transition
+Iteration Count: 10000
+maxval: 6
+Threads average 1634.00 ns/transition
+maxval: 64
+Threads average 1418.73 ns/transition
+maxval: 127
+Threads average 1376.49 ns/transition
+Iteration Count: 100000
+maxval: 6
+Threads average 278.660 ns/transition
+maxval: 64
+Threads average 265.754 ns/transition
+maxval: 127
+Threads average 279.240 ns/transition
+
+Thread Count: 4
+Iteration Count: 10
+maxval: 6
+Threads average 550260 ns/transition
+maxval: 64
+Threads average 561941 ns/transition
+maxval: 127
+Threads average 560621 ns/transition
+Iteration Count: 1000
+maxval: 6
+Threads average 11192.0 ns/transition
+maxval: 64
+Threads average 10917.2 ns/transition
+maxval: 127
+Threads average 10558.4 ns/transition
+Iteration Count: 10000
+maxval: 6
+Threads average 2833.22 ns/transition
+maxval: 64
+Threads average 2915.19 ns/transition
+maxval: 127
+Threads average 2420.97 ns/transition
+Iteration Count: 100000
+maxval: 6
+Threads average 1202.13 ns/transition
+maxval: 64
+Threads average 613.047 ns/transition
+maxval: 127
+Threads average 930.930 ns/transition
+
+Thread Count: 8
+Iteration Count: 10
+maxval: 6
+Threads average 1.62206e+06 ns/transition
+maxval: 64
+Threads average 1.63078e+06 ns/transition
+maxval: 127
+Threads average 1.55022e+06 ns/transition
+Iteration Count: 1000
+maxval: 6
+Threads average 29438.7 ns/transition
+maxval: 64
+Threads average 27913.0 ns/transition
+maxval: 127
+Threads average 23072.1 ns/transition
+Iteration Count: 10000
+maxval: 6
+Threads average 6304.79 ns/transition
+maxval: 64
+Threads average 9998.29 ns/transition
+maxval: 127
+Threads average 5609.57 ns/transition
+Iteration Count: 100000
+maxval: 6
+Threads average 1626.72 ns/transition
+maxval: 64
+Threads average 1099.79 ns/transition
+maxval: 127
+Threads average 3275.93 ns/transition

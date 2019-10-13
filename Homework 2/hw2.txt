@@ -1,0 +1,65 @@
+CS 131
+After-action Report: Homework 2 OCaml
+
+	For this assignment, I chose a sort of "neither" approach in 
+implementing the functions make_matcher and make_parser, but the basic function 
+do_matching that these two functions are reliant on was first written for the 
+make_matcher function. Essentially, do_matching mutually recurses with the 
+function process_fragment; do_matching will handle iterating through 
+alternative lists, and process_fragment will handle looking for matching 
+prefixes in these alternative lists passed from do_matching. On top of this, 
+the do_matching function will keep track of the derivation for a fragment by 
+appending each grammar rule used by the fragment to an initially empty list 
+that is recursively passed to do_matching. 
+
+	The difficult part of this implementation, however, was figuring out 
+how to get the correct return depending on if a parser or a matcher is desired. 
+My initial approach was naive one, where I would try and either return tuples 
+containing both the acceptor return and the derivation for a given fragment or 
+using modified acceptors that take the fragment, acceptor, and derivation as 
+arguments and return such tuples. This led to many headaches, as OCaml's 
+type inferencing and static type checking wouldn't allow such a thing. To 
+remedy this, I chose to implement modified acceptors, but this time, the 
+acceptors would be specific to either make_matcher or make_parser. The 
+acceptor for make_matcher would take in a fragment and a derivation, but only 
+return the "actual" acceptor value when applied to the fragment, whereas the 
+make_parser acceptor would take in a fragment and a derivation, but only 
+return the derivation depending on whether the fragment, which is a suffix, 
+is empty or not, as this signifies the entire fragment was able to be 
+parsed.
+
+	For make_matcher this would be the end of its implementation, as its 
+modified acceptor returns the option type based on the "actual" acceptor 
+taking in the proposed suffix. However, make_parser requires an additional 
+function to process the derivation returned by its acceptor. The derivation 
+is simply a list of lists of single rules; to process this, I made a function 
+parse_this_path which takes the first rule's left hand side and use the 
+right hand side and the rest of the derivation to separate and return 
+Nodes and Leaves through a recursive function draw_branch. Depending on the 
+right hand side of the current Node, draw_branch would recurse through the 
+remaining parts of the derivation to find the matching left hand sides, which 
+are in order, corresponding to each element in the right hand side. Draw 
+branches would then return the Nodes within lists of Nodes and Leaves until 
+the root Node is returned to.
+
+	Now, my initial test cases were written with various nontrivial 
+ideas in mind, however, I immediately found that one of my ideas: a left 
+associative grammar, is not handled correctly by my implementation. When 
+trying to process a left associative grammar, a parser defined by 
+make_parser will actually go into an infinite loop. My intuition tells me 
+this is probably due to how the derivation is handled when a fragment is 
+passed to the parser, so it only works for right associative grammars. 
+I'm not entirely sure how this can solved without writing an entirely 
+separate function to handle left associative grammars. Other weaknesses are 
+that some arguments are assumptions, such as grammars are assumed to always 
+have a nonterminal symbol as the first item in the pair; if some type of 
+error checking could be implemented, these would be easy fixes. I'm not 
+entirely sure as to the robustness of my implementation or how it would 
+scale with larger grammars, however the test cases I made do show some 
+correct behavior, such as the importance of rule ordering in a grammar. For 
+the make_matcher_test, I reordered the grammar and passed it to make_matcher 
+to show that the order changes which matching prefixes are encountered first, 
+and how the acceptor could identify different valid fragments depending on 
+this. Furthermore, in addition to the make_matcher_test and make_parser_test, 
+I also implemented tests for convert_grammar and parse_tree_leaves, with the 
+parse_tree_leaves_test showing that it is the inverse of make_parser.

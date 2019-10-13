@@ -1,0 +1,52 @@
+Statistics, speedup/1:
+
+	Using a random seed for the 5x5 easy puzzle from: 
+	https://www.chiark.greenend.org.uk/~sgtatham/puzzles/js/towers.html
+	my test cases for speedup/1 are as follows: 
+
+	tower(5, _, counts([2,3,5,1,2], [2,2,1,4,3], [2,1,4,2,2], [2,3,1,4,3]))
+	plain_tower(5, _, counts([2,3,5,1,2], [2,2,1,4,3], [2,1,4,2,2], [2,3,1,4,3]))
+
+	The ratio I got for the cpu times of plain_tower/3 to tower/3 was ~26490.33, which 
+	is quite large.
+
+	| ?- speedup(Ratio).
+
+	Ratio = 26490.333333333332 ? 
+
+	(79310 ms) yes
+
+	However, it should be noted that, depending on the test case, it might take a 
+	marginally longer time for plain_tower to come across a valid solution, as it must 
+	enumerate all possible permutations, whereas tower performs at a relatively 
+	consistent rate. Also, CPU load plays a role.
+
+Ambiguous Puzzle, ambiguous/3:
+
+	When using N = 5 for the ambigious/4 predicate, the ambigious puzzle found is as 
+	follows: 
+
+	| ?- ambiguous(5, C, T1, T2).
+
+	C = counts([1,2,2,3,2],[5,2,1,3,3],[1,2,2,2,3],[3,1,2,3,2])
+	T1 = [[5,3,4,1,2],[4,1,2,3,5],[3,2,1,5,4],[2,5,3,4,1],[1,4,5,2,3]]
+	T2 = [[5,3,4,1,2],[4,2,1,3,5],[3,1,2,5,4],[2,5,3,4,1],[1,4,5,2,3]] ? 
+
+	(4709 ms) yes
+
+	The only differences in the solutions to said puzzle seem to be in rows 2 and 3.
+
+Additional Notes:
+ 
+	My implementation for the transpose matrix comes from an implementation in an old 
+	clpfd of SWI Prolog. My method of finding a list of all consecutive integers from 
+	1 to N and altering finite domain solver's built-in predicates to work with maplist 
+	are also from online research. The references for these are below.
+
+References: 
+
+	https://stackoverflow.com/questions/4280986/how-to-transpose-a-matrix-in-prolog
+
+	https://stackoverflow.com/questions/7432156/prolog-list-of-numbers
+
+	https://stackoverflow.com/questions/34596680/how-can-i-change-size-of-sudoku

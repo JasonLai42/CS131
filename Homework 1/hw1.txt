@@ -1,0 +1,28 @@
+CS 131
+After-action Report: Homework 1 OCaml
+
+    For most of the simple functions acting on sets, these use relatively simple 
+solutions, mostly utilizing modules in the List library, to obtain a correct result. 
+Albeit, these solutions may not be the most efficient complexity wise.
+
+    For the filter_reachable g function, my approach first has a function 
+get_reachable_set that checks the list of rules for a given grammar and for every rule 
+that matches the start symbol on the left hand side, a nested function process_rhs then 
+processes the right hand side of that rule and checks for N elements. These elements are 
+added to a list called reachable_set if they are not duplicates (to avoid an infinite 
+recursion), and for every nonterminal element that is new to the set, the 
+get_reachable_set function is then run with that element as the start symbol. In essence,
+ this is like traversing a tree with recursion. At the end of the get_reachable_set 
+function, reachable_set is returned containing every nonterminal type that is reachable 
+in those rules with the given start symbol. I then used another function that takes the 
+rule list and, using List.filter, filters out all elements in the list that don't have a 
+left hand side matching an element in reachable_set. The filtered list is then returned 
+to the filter_reachable function.
+
+    I chose this approach to solving the problem, because I found it to be easy to 
+understand. I initially broke the problem down into parts and this was my first solution,
+ however I did have trouble with the implementation. The get_reachable_set and nested 
+process_rhs functions were originally separate functions, however, their mutual reliance 
+on each other required that process_rhs be nested in get_reachable_set. I tried to 
+implement them in a way where they did not rely on each other, but could not do so, 
+although having process_rhs nested may have been better design and style anyways.

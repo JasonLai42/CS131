@@ -1,0 +1,49 @@
+
+JAVA 11
+
+GETNSET TEST 100
+
+Thread Count: 2
+Iteration Count: 10
+FAIL COUNT: 41
+
+Iteration Count: 1000
+FAIL COUNT: 85
+
+Iteration Count: 10000
+FAIL COUNT: 92
+
+Iteration Count: 100000
+FAIL COUNT: 96
+
+
+Thread Count: 4
+Iteration Count: 10
+FAIL COUNT: 32
+
+Iteration Count: 1000
+FAIL COUNT: 97
+
+Iteration Count: 10000
+FAIL COUNT: 98
+
+Iteration Count: 100000
+FAIL COUNT: 95
+
+
+Thread Count: 8
+Iteration Count: 10
+FAIL COUNT: 60
+
+Iteration Count: 1000
+FAIL COUNT: 96
+
+Iteration Count: 10000
+FAIL COUNT: 99
+
+Iteration Count: 100000
+FAIL COUNT: 98
+
+
+JAVA 9
+
